@@ -1,0 +1,71 @@
+body{
+	margin: 0;
+	overflow-x:hidden;
+}
+.select{
+	padding-top: 70px;
+	display: flex;
+	align-items: center;
+    flex-direction: column;
+}
+.title{
+	font-size: 25px;
+}
+.char{
+	display: flex;
+	justify-content: space-evenly;
+}
+.char img{
+	padding: 10px;
+	border: 1px solid black;
+	width: 30%;
+	height: 30%;
+}
+.map{
+	width: 100%;
+	height: 100%;
+	top: 0;
+    left: 0;
+	display: flex;
+	align-items: center;
+    flex-direction: column;
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+}
+.map img{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+}
+.score{
+	margin-bottom: 100px;
+	margin-top: 15px;
+}
+.dino{
+	left: 0px;
+	top: 125px;
+}
+.promo{
+	visibility: hidden;
+	z-index: 3;
+	display: flex;
+	align-items: center;
+    flex-direction: column;
+}
+.but{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+}
+.cat{
+	right: -50px;
+}
+
+.lose{
+	visibility: hidden;
+}
+.text{
+	text-align: center;
+}
